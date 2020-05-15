@@ -3,7 +3,10 @@ body {
 }
 
 .header {
-  background-color: #031634;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/engine.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .logo {
@@ -11,31 +14,40 @@ body {
 }
 
 .company-name {
+  font-family: 'Notable', sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 8px 8px 4px #031634;
+  padding-bottom: 10px;
+}
+
+.header-phone,
+.header-address,
+.slogan {
   color: white;
   text-align: center;
 }
 
-.header-phone {
-  color: white;
-  text-align: center;
+.slogan {
+  text-shadow: 8px 8px 4px black;
+  font-family:'Stint Ultra Expanded', cursive;
+  padding-top: 10px;
 }
 
-.phone {
+.phone,
+.address {
   color: white;
   text-decoration: underline;
+  font-family: 'Stint Ultra Expanded', cursive;
 }
 
-.address { 
-  color: white;
-  text-decoration: underline;
+.phone:hover,
+.address:hover {
+  color: #d83634;
 }
 
-.header-address {
-  color: white;
-  text-align: center;
-}
 #mainNavbar {
-  background-color: #d63533;
+  background-color: #031634;
   font-size: 1.25rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -54,7 +66,7 @@ body {
 
 #mainNavbar .nav-link:hover {
   background-color: #fefefe;
-  color: #d63533;
+  color: #031634;
   transition: 0.3s;
 }
 
