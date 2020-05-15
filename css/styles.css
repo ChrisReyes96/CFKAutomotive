@@ -20,6 +20,16 @@ body {
   text-align: center;
 }
 
+.phone {
+  color: white;
+  text-decoration: underline;
+}
+
+.address { 
+  color: white;
+  text-decoration: underline;
+}
+
 .header-address {
   color: white;
   text-align: center;
