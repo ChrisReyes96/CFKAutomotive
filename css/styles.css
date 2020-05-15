@@ -2,26 +2,28 @@ body {
   background-color: white;
 }
 
-.banner {
-  width: 100%;
-  height: 200px;
+.header {
   background-color: #031634;
-  padding-bottom: 10px;
-  text-align: center;
-}
-
-.name{
-  color: white;
-  font-size: 2rem;
-  text-align: center;
 }
 
 .logo {
-  width: 20%;
+  max-width: 100%;
+}
+
+.company-name {
+  color: white;
   text-align: center;
 }
 
+.header-phone {
+  color: white;
+  text-align: center;
+}
 
+.header-address {
+  color: white;
+  text-align: center;
+}
 #mainNavbar {
   background-color: #d63533;
   font-size: 1.25rem;
