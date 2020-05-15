@@ -4,12 +4,26 @@ body {
 
 .banner {
   width: 100%;
-  height: 100px;
-  background-color: white;
+  height: 200px;
+  background-color: #031634;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
+.name{
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.logo {
+  width: 20%;
+  text-align: center;
+}
+
+
 #mainNavbar {
-  background-color: #0a0a0a;
+  background-color: #d63533;
   font-size: 1.25rem;
   padding-top: 0;
   padding-bottom: 0;
@@ -17,18 +31,18 @@ body {
 }
 
 #mainNavbar .navbar-brand {
-  color: #d60f0f;
+  color: #fefefe;
   font-size: 1.75rem;
 }
 #mainNavbar .nav-link {
-  color: #d60f0f;
+  color: #fefefe;
   padding-left: 25px;
   padding-right: 25px;
 }
 
 #mainNavbar .nav-link:hover {
-  background-color: #d60f0f;
-  color: #0a0a0a;
+  background-color: #fefefe;
+  color: #d63533;
   transition: 0.3s;
 }
 
