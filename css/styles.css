@@ -17,10 +17,6 @@ body {
   padding-bottom: 10px;
 }
 
-.logo {
-  width: 50%;
-}
-
 .header-phone,
 .header-address,
 .slogan {
@@ -43,7 +39,7 @@ body {
 }
 
 .time {
-  font-family: "Stint Ultra Expand", cursive;
+  font-family: "Stint Ultra Expanded", cursive;
 }
 
 .phone:hover,
