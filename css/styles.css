@@ -17,6 +17,14 @@ body {
   text-align: center;
 }
 
+h2 {
+ font-size: 1.5rem;
+}
+
+h4{
+  font-size: 1rem;
+}
+
 .company-name {
   font-family: "Notable", sans-serif;
   color: white;
@@ -135,4 +143,12 @@ body {
   .intro-wrapper {
     background-color: rgba(219, 219, 219, 0.6);
   }
+
+  h2 {
+    font-size: 2rem;
+   }
+
+   h4 {
+    font-size: 1.5rem;
+   }
 }
