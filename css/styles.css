@@ -1,5 +1,95 @@
+body {
+  background-color: #dbdbdb;
+}
 
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../images/engine.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+.company-name {
+  font-family: "Notable", sans-serif;
+  color: white;
+  text-align: center;
+  text-shadow: 8px 8px 4px #031634;
+  padding-bottom: 10px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.header-phone,
+.header-address,
+.slogan {
+  color: white;
+  text-align: center;
+}
+
+.slogan {
+  text-shadow: 8px 8px 4px black;
+  font-family: "Baloo Chettan 2", cursive;
+  padding-top: 10px;
+  text-shadow: 2px 2px 4px #d83634;
+}
+
+.phone,
+.address {
+  color: white;
+  text-decoration: underline;
+  font-family: "Stint Ultra Expanded", cursive;
+}
+
+.time {
+  font-family: "Stint Ultra Expand", cursive;
+}
+
+.phone:hover,
+.address:hover {
+  color: #d83634;
+}
+
+#mainNavbar {
+  background-color: rgba(3, 22, 52, 0.9);
+  font-size: 1.25rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Baloo Chettan 2", cursive;
+  font-weight: bold;
+}
+
+#mainNavbar .navbar-brand {
+  color: #fefefe;
+  font-size: 1.75rem;
+}
+#mainNavbar .nav-link {
+  color: #fefefe;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#mainNavbar .nav-link:hover {
+  background-color: #fefefe;
+  color: #031634;
+  transition: 0.3s;
+}
+
+.intro {
+  padding: 30px;
+  margin: 50px 70px;
+  width: 100%;
+  height: 200px;
+  background-color: rgba(3, 22, 52, 0.8);
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.intro-wrapper {
+  background-color: rgba(219, 219, 219, 0.6);
+}
 
 /*  layout */
 
@@ -8,17 +98,6 @@
 /* tablet layout >=48rem (768px) */
 
 @media screen and (min-width: 46rem) {
-  body {
-    background-color: #dbdbdb;
-  }
-
-  .header {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-      url("../images/engine.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
   .logo {
     max-width: 100%;
   }
@@ -31,59 +110,11 @@
     padding-bottom: 10px;
   }
 
-  .header-phone,
-  .header-address,
-  .slogan {
-    color: white;
-    text-align: center;
-  }
-
   .slogan {
     text-shadow: 8px 8px 4px black;
     font-family: "Baloo Chettan 2", cursive;
     padding-top: 10px;
     text-shadow: 2px 2px 4px #d83634;
-  }
-
-  .phone,
-  .address {
-    color: white;
-    text-decoration: underline;
-    font-family: "Stint Ultra Expanded", cursive;
-  }
-
-  .time {
-    font-family: "Stint Ultra Expand", cursive;
-  }
-
-  .phone:hover,
-  .address:hover {
-    color: #d83634;
-  }
-
-  #mainNavbar {
-    background-color: rgba(3, 22, 52, 0.9);
-    font-size: 1.25rem;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-family: "Baloo Chettan 2", cursive;
-    font-weight: bold;
-  }
-
-  #mainNavbar .navbar-brand {
-    color: #fefefe;
-    font-size: 1.75rem;
-  }
-  #mainNavbar .nav-link {
-    color: #fefefe;
-    padding-left: 25px;
-    padding-right: 25px;
-  }
-
-  #mainNavbar .nav-link:hover {
-    background-color: #fefefe;
-    color: #031634;
-    transition: 0.3s;
   }
 
   .intro {
