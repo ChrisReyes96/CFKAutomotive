@@ -9,6 +9,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.logo {
+  max-width: 100%;
+}
+
 .company-name {
   font-family: "Notable", sans-serif;
   color: white;
@@ -94,9 +98,6 @@ body {
 /* tablet layout >=48rem (768px) */
 
 @media screen and (min-width: 46rem) {
-  .logo {
-    max-width: 100%;
-  }
 
   .company-name {
     font-family: "Notable", sans-serif;
