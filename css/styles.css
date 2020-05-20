@@ -10,7 +10,11 @@ body {
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 80%;
+}
+
+.logo-wrapper {
+  text-align: center;
 }
 
 .company-name {
@@ -98,6 +102,9 @@ body {
 /* tablet layout >=48rem (768px) */
 
 @media screen and (min-width: 46rem) {
+  .logo {
+    max-width: 100%;
+  }
 
   .company-name {
     font-family: "Notable", sans-serif;
