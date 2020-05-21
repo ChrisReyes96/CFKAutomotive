@@ -112,7 +112,7 @@ h4{
   background-color: rgba(219, 219, 219, 0.6);
 }
 
-#generalMaintenance {
+.lists {
   list-style-image: url(../images/gear-svg.svg);
 }
 
