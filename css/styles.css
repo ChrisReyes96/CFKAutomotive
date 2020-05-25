@@ -61,12 +61,12 @@ h4{
 .address {
   color: white;
   text-decoration: underline;
-  font-family: "Stint Ultra Expanded", cursive;
+  /* font-family: "Stint Ultra Expanded", cursive; */
 }
 
-.time {
+/* .time {
   font-family: "Stint Ultra Expanded", cursive;
-}
+} */
 
 .phone:hover,
 .address:hover {
@@ -118,7 +118,8 @@ h4{
 
 .lists {
   list-style-image: url(../images/car-svg.svg);
-  line-height: 1.5;
+  line-height: 1.75;
+  font-size: 1.25rem;
 }
 
 .service-title {
@@ -179,12 +180,6 @@ h4{
     font-size: 1.5rem;
    }
 
-   .service-lists {
-     padding-top: 60px;
-   }
-
-   .lists {
-     font-size: 1.25rem;
-   }
+   
 
 }
