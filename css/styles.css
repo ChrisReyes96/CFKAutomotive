@@ -112,8 +112,17 @@ h4{
   background-color: rgba(219, 219, 219, 0.6);
 }
 
+/* .service-lists:first-of-type {
+  padding-top: 40px;
+} */
+
 .lists {
-  list-style-image: url(../images/gear-svg.svg);
+  list-style-image: url(../images/car-svg.svg);
+  line-height: 1.5;
+}
+
+.service-title {
+  padding-top: 40px;
 }
 
 /*  layout */
@@ -166,7 +175,7 @@ h4{
    }
 
    .service-lists {
-     padding-top: 20px;
+     padding-top: 60px;
    }
 
    .lists {
