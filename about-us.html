@@ -1,167 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <title>CFK Automotive Repair & Towing</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Google Font -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&family=Notable&family=Quicksand:wght@400;700&family=Stint+Ultra+Expanded&family=Vollkorn:wght@400;700&display=swap"
-        rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- Font Awesome-->
-    <script src="https://kit.fontawesome.com/cfdf2cce39.js" crossorigin="anonymous"></script>
-
+    <title>Test</title>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("views/partials/header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body>
-
-    <header class="header">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-sm-3 col-lg-4 logo-wrapper">
-                    <img class="logo" src="images/transparent-logo.png" alt="logo">
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-xs-12 col-lg-6">
-                    <div class="company-name">
-                        <h2>CFK Automotive Repair & Towing</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="header-phone">
-                        <h4><i class="fas fa-mobile-alt icon"></i><a href="tel:(908)755-3060" class="phone"><strong>(908)
-                                    755-3060</strong></a><br><br>
-                            <p class="time"><strong>Mon-Fri: 9AM-6PM<br>Sat: 9AM-4PM</strong></p>
-                        </h4>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="header-address">
-                        <h4><i class="fas fa-map-marker-alt icon"></i><a class="address"
-                                href="https://www.google.com/maps/dir/40.5009733,-74.6517536/cfk+automotive+repair/@40.5759609,-74.6849941,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x89c3b9444d9760bb:0x50f649eec559f3c4!2m2!1d-74.4496995!2d40.6201707"><strong>985
-                                    Route US-22 West, <br>North Plainfield, NJ 07060</strong></a></h4>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="slogan">
-                        <h4><strong>The dealer alternative for all make & models, service, parts & accesories!</strong>
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <nav id="mainNavbar" class="navbar navbar-expand-md navbar-dark">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar7">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse justify-content-stretch" id="navbar7">
-                <ul class="navbar-nav nav-fill w-100">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#aboutUs">ABOUT&nbsp;US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link selected" href="services.html">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactUs">CONTACT&nbsp;US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactUs">REVIEWS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contactUs">SPECIALS</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class="row justify-content-between service-lists">
-            <div class="col-lg-6">
-                <h3 class="service-title"><i class="fas fa-tools icon"></i>GENERAL REPAIR SERVICES:</h3>
-                <ul class="lists">
-                    <li>Air Conditioning Service & Repair</li>
-                    <li>Brake Repair</li>
-                    <li>Brake & Lamp Inspections</li>
-                    <li>Body & Trim Repairs (Mirrors, Door Handles)</li>
-                    <li>Chassis & Suspension</li>
-                    <li>Computer Diagnostics</li>
-                    <li>Cooling System & Mufflers</li>
-                    <li>Electrical System Diagnosis & Repair</li>
-                    <li>Power Accessory Repair</li>
-                    <li>Power Steering Repair</li>
-                    <li>Pre-purchase Inspections</li>
-                    <li>Shocks & Struts</li>
-                    <li>Suspension & Steering Repair</li>
-                </ul>
-            </div>
-            <div class="col-lg-6">
-                <h3 class="service-title"><i class="fas fa-tools icon"></i>ENGINE SERVICES:</h3>
-                <ul class="lists">
-                    <li>Belt & Hose Replacement</li>
-                    <li>Engine Performance Check</li>
-                    <li>Engine Repair</li>
-                    <li>Engine Replacement</li>
-                    <li>Fuel Injection Service & Repair</li>
-                    <li>Fuel System Maintenance & Repair</li>
-                    <li>Ignition System Maintenance & Repair</li>
-                </ul>
-            </div>
-        </div>
-        <div class="row justify-content-between service-lists">
-            <div class="col-lg-6">
-                <h3 class="service-title"><i class="fas fa-tools icon"></i>GENERAL MAINTENANCE:</h3>
-                <ul class="lists">
-                    <li>Check Engine Light Diagnostics</li>
-                    <li>Factory Scheduled Maintenance</li>
-                    <li>Filter Replacements</li>
-                    <li>Fluid Services</li>
-                    <li>Oil Changes</li>
-                    <li>Trip Inspections</li>
-                    <li>Tune Ups</li>
-                </ul>
-            </div>
-            <div class="col-lg-6">
-                <h3 class="service-title"><i class="fas fa-tools icon"></i>TRANSMISSION SERVICES:</h3>
-                <ul class="lists">
-                    <li>Axle Replacement</li>
-                    <li>Clutch Repair & Replacement</li>
-                    <li>Differential Service & Repair</li>
-                    <li>Driveline Maintenance & Repair</li>
-                    <li>Transmission Services</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <div id="header"></div>
+    <!--Remaining section-->
+    <div id="footer"></div>
 </body>
 
 </html>
